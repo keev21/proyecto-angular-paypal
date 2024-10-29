@@ -11,7 +11,7 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent implements AfterViewInit {
   title = 'proyecto-angular-paypal';
-  private amount = '50.00';  // Monto de pago
+  private amount = '100.00';  // Monto de pago
 
   constructor(private elRef: ElementRef) {}
 
